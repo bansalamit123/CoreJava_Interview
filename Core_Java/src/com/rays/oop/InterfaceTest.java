@@ -14,6 +14,6 @@ public class InterfaceTest implements Interfacee {
 
 		System.out.println(b.sum(10, 20));
 
-		 System.out.println(x);
+		 System.out.println(b.x);
 	}
 }

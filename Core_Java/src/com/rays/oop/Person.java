@@ -10,7 +10,7 @@ public class Person {
 	public String name;
 	public Date dob;
 
-	public static final int AVG = 10;
+	public static final int AVG = 20;
 
 	public int getId() {
 		return id;
@@ -39,24 +39,24 @@ public class Person {
 	public static int getAvg() {
 		return AVG;
 	}
+
 	public static void main(String[] args) throws ParseException {
-		
-	
-	Person p= new Person();
-	
-	SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
-	
-	p.setDob(sdf.parse("2004-04-04"));;
-	
-	p.setName("amit shah");
-	p.setId(10);
-	
-	
-	System.out.println(p.getId());
-	System.out.println(p.name);
-	System.out.println(p.getDob()); 
-	System.out.println(p.AVG);
-	
+
+		Person p = new Person();
+
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+		p.setDob(sdf.parse("2004-04-04"));
+		;
+
+		p.setName("amit shah");
+		p.setId(10);
+
+		System.out.println(p.getId());
+		System.out.println(p.name);
+		System.out.println(p.getDob());
+		System.out.println(p.AVG);
+
 	}
 
 }

@@ -11,12 +11,12 @@ public class TestShape {
 		Circle c = (Circle) s[0];
 		c.setRadius(2.12);
 		System.out.println(s[0].area());
-
+       // System.out.println(c.area());
 		Rectangle r = (Rectangle) s[1];
 		r.setLength(10);
 		r.setWidth(10);
 		System.out.println(s[1].area());
-
+		// System.out.println(r.area());
 		double a = Area(s);
 		System.out.println(a);
 

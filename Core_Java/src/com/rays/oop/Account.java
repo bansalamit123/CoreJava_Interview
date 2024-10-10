@@ -13,7 +13,7 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public void Deposite(int amt) {
+	public void deposite(int amt) {
 
 //		System.out.println("Total balance" + balance);
 //		System.out.println("Deposite Amt" + amt);
@@ -21,7 +21,7 @@ public class Account {
 		System.out.println("After Deposite Amt" + balance);
 	}
 
-	public void Withdrawal(int amt) {
+	public void withdrawal(int amt) {
 
 		if ((balance - 2000) < amt) {
 			System.out.println("low balance");
@@ -37,8 +37,8 @@ public class Account {
 	public static void main(String[] args) {
 		Account ac = new Account();
 		ac.setBalance(2000);
-		ac.Deposite(500);
-		ac.Withdrawal(100);
+		ac.deposite(500);
+		ac.withdrawal(100);
 	}
 
 }

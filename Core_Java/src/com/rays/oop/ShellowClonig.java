@@ -1,7 +1,7 @@
 
 package com.rays.oop;
 
-public class ShellowClonig implements Cloneable {
+public class ShellowClonig implements Cloneable{
 
 	public int balance;
 
@@ -10,5 +10,7 @@ public class ShellowClonig implements Cloneable {
 		// TODO Auto-generated method stub
 		return super.clone();
 	}
+	
+        
 
 }

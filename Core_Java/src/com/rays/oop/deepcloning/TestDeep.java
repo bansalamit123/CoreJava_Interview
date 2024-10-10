@@ -4,9 +4,9 @@ package com.rays.oop.deepcloning;
 public class TestDeep {
 	public static void main(String[] args) throws CloneNotSupportedException  {
 
-		Costumer c = new Costumer("kapil");
+		Costumer c = new Costumer("Amit");
 		Costumer c1 = (Costumer) c.clone();
-		c1.name = "rahul";
+		c1.name = "Bansal";
 		c1.no.balance = 200;
 
 		System.out.println(c.name);

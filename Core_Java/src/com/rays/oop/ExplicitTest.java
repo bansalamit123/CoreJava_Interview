@@ -3,7 +3,7 @@ package com.rays.oop;
 public class ExplicitTest extends Explicit {
 
 	public ExplicitTest(String name) {
-		
+		super(name);
 		// TODO Auto-generated constructor stub
 	}
 
