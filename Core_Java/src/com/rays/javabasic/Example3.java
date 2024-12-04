@@ -22,7 +22,7 @@ public class Example3 implements Serializable {
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(original);
             oos.close();
-
+ 
             // Deserialize the object
             FileInputStream fis = new FileInputStream("example.ser");
             ObjectInputStream ois = new ObjectInputStream(fis);
