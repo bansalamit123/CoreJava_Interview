@@ -12,7 +12,7 @@ public class SorterdSetInterface {
 
 		// Add elements to the TreeSet
 		s.add(100); 
-		s.add(20); 
+		s.add(200); 
 		s.add(300); 
 		s.add(400); 
 		s.add(500); 
